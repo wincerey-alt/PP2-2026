@@ -12,7 +12,8 @@ lable.bind("<Double-1>",on_lbl_clicked)
 lable.pack()
 
 def on_btn1_clicked():
-    print("버튼1이 클릭되었습니다")
+    print(f"버튼1이 클릭되었습니다: {event})
+          
 
 #btn1=tk.Button(root,text="클릭해볼까요?",command=on_btn1_clicked)
 btn1=tk.Button(root,text="클릭해볼까요?",command=on_btn1_clicked)
